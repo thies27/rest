@@ -17,4 +17,20 @@ public class NameServiceImpl implements NameService {
 		return Response.status(200).entity(result).build();
 	}
 
+	@Override
+	public Response getName(int nummer) throws Exception {
+		
+		String result = null;
+		
+		if (nummer == 1) {
+			result = "Numero 1";
+		} else if(nummer == 2){
+			result = "Numero 2";
+		} else{
+			result = "Numero irgendwas";
+		}
+		
+		return Response.status(200).entity(result).build();
+	}
+
 }
