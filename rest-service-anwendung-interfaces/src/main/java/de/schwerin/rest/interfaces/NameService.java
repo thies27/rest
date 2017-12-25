@@ -7,6 +7,8 @@ import javax.ws.rs.core.Response;
 
 /**
  * A sample interface
+ * 
+ * http://localhost:8080/restservice/rest/message/schwerin
  */
 @Path("/message")
 public interface NameService {
