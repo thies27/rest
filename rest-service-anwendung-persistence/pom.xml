@@ -30,10 +30,22 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxrs</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>			
+			<artifactId>testng</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>de.schwerin.rest</groupId>
+			<artifactId>rest-service-anwendung-interfaces</artifactId>
+			<version>${project.version}</version>			
 		</dependency>
 	</dependencies>
 </project>
