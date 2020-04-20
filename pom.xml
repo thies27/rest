@@ -17,7 +17,7 @@
 		<maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
 		<maven-war-plugin.version>3.1.0</maven-war-plugin.version>
 		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
-		<maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
+<!-- 		<maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version> -->
 
 		<!-- Dependencies -->
 
@@ -135,33 +135,33 @@
 			</plugin>
 
 			<!-- Javadocs -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>${maven-javadoc-plugin.version}</version>
-				<configuration>
-					<tags>
-						<tag>
-							<name>implNote</name>
-							<placement>tcm</placement>
-							<head>Implementation notes:</head>
-						</tag>
-						<tag>
-							<name>apiNote</name>
-							<placement>tcm</placement>
-							<head>API notes:</head>
-						</tag>
-					</tags>
-				</configuration>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.apache.maven.plugins</groupId> -->
+<!-- 				<artifactId>maven-javadoc-plugin</artifactId> -->
+<!-- 				<version>${maven-javadoc-plugin.version}</version> -->
+<!-- 				<configuration> -->
+<!-- 					<tags> -->
+<!-- 						<tag> -->
+<!-- 							<name>implNote</name> -->
+<!-- 							<placement>tcm</placement> -->
+<!-- 							<head>Implementation notes:</head> -->
+<!-- 						</tag> -->
+<!-- 						<tag> -->
+<!-- 							<name>apiNote</name> -->
+<!-- 							<placement>tcm</placement> -->
+<!-- 							<head>API notes:</head> -->
+<!-- 						</tag> -->
+<!-- 					</tags> -->
+<!-- 				</configuration> -->
+<!-- 				<executions> -->
+<!-- 					<execution> -->
+<!-- 						<id>attach-javadocs</id> -->
+<!-- 						<goals> -->
+<!-- 							<goal>jar</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
+<!-- 				</executions> -->
+<!-- 			</plugin> -->
 
 		</plugins>
 
