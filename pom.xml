@@ -23,7 +23,7 @@
 
 		<org.springframework.version>5.2.5.RELEASE</org.springframework.version>
 		<org.testng.version>6.11</org.testng.version>
-		<org.jboss.resteasy.version>2.3.7.Final</org.jboss.resteasy.version>
+		<org.jboss.resteasy.version>3.0.11.Final</org.jboss.resteasy.version>
 
 	</properties>
 
